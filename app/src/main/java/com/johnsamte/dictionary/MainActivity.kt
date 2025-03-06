@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var speechRecognizerIntent: Intent
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        Thread.sleep(2000)
         installSplashScreen()
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
